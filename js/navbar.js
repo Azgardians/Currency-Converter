@@ -9,13 +9,18 @@ function scrollFunction() {
     document.getElementById("navbar").style.padding = "50px 10px";
     document.getElementById("logo").style.fontSize = "35px";
   }
-  if (document.body.scrollTop > 280 || document.documentElement.scrollTop > 280){
+  if ((document.body.scrollTop > 280 || document.documentElement.scrollTop > 280)){
     document.getElementById("navbar").style.backgroundColor = "black";
     document.getElementById("logo").style.backgroundColor = "#aff2ff";
   }else{
     document.getElementById("navbar").style.backgroundColor = "";
     document.getElementById("logo").style.backgroundColor = "";
   }
+  if (document.body.scrollTop > 500 || document.documentElement.scrollTop > 500){
+    document.getElementById("navbar").style.backgroundColor = "";
+    document.getElementById("logo").style.backgroundColor = "";
+  }
+  
 
 }
 // for Converting the given denomination.
