@@ -6,7 +6,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     
     /* background: linear-gradient(to right, #FF4B2B, #FF416C); */
-    background: linear-gradient(to bottom, #50dcff 0%,  #50dcff 50%, #aff2ff 50%,  #aff2ff 100%);
+    background: linear-gradient(to bottom, #066576 0%,  #066576 50%, #aff2ff 50%,  #aff2ff 100%);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: 0 0;
@@ -83,7 +83,7 @@ body {
     }
 }
 .container {
-	background: linear-gradient(to bottom, #aff2ff 0%, #aff2ff 50%, #50dcff 50%, #50dcff 100%);
+	background: linear-gradient(to bottom, #50dcff 0%,  #50dcff  50%,  #aff2ff 50%, #aff2ff 100%);
 	font-family: 'Muli', sans-serif;
 	display: flex;
 	flex-direction: column;
