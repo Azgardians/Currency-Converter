@@ -16,10 +16,10 @@ function scrollFunction() {
     document.getElementById("navbar").style.backgroundColor = "";
     document.getElementById("logo").style.backgroundColor = "";
   }
-  if (document.body.scrollTop > 500 || document.documentElement.scrollTop > 500){
-    document.getElementById("navbar").style.backgroundColor = "";
-    document.getElementById("logo").style.backgroundColor = "";
-  }
+  // if (document.body.scrollTop > 500 || document.documentElement.scrollTop > 500){
+  //   document.getElementById("navbar").style.backgroundColor = "";
+  //   document.getElementById("logo").style.backgroundColor = "";
+  // }
   
 
 }

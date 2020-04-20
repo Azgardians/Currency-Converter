@@ -25,7 +25,7 @@ function calculate() {
 		.then(res => res.json())
 		.then(res => {
 		const rate = res.rates[to_currency];
-		rateEl.innerText = `1 ${from_currency} = ${rate} ${to_currency}`
+		rateEl.innerText = `${from_currency} = ${rate} ${to_currency}`
 		to_ammountEl.value = (from_ammountEl.value * rate).toFixed(2);
 	})
 }
